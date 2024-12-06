@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Навігація по лабораторним роботам</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Анімований фон -->
+    <div class="animated-background"></div>
+
+    <!-- Контейнер з панелями -->
+    <div class="container mt-5 text-center">
+      <h1 class="text-white mb-5">Меню ігор</h1>
+      <div class="row">
+        <!-- Лабораторна 7 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div
+            class="card panel"
+            onclick="openLink('https://keen-n.github.io/laboratory-7/')"
+          >
+            <img
+              src="./images/ball-background.jpg"
+              class="card-img-top"
+              alt="Магічна куля"
+              width="800"
+              height="400"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Магічна куля</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Лабораторна 8 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div
+            class="card panel"
+            onclick="openLink('https://keen-n.github.io/laboratory-8/')"
+          >
+            <img
+              src="./images/robot1.jpg"
+              class="card-img-top"
+              alt="Рандомайзер чисел"
+              height="400"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Рандомайзер чисел</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Лабораторна 9 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div
+            class="card panel"
+            onclick="openLink('https://keen-n.github.io/laboratory-9/')"
+          >
+            <img
+              src="./images/card-game.jpg"
+              class="card-img-top"
+              alt="Гра в карти"
+              height="400"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Гра в карти</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Лабораторна 10 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div
+            class="card panel"
+            onclick="openLink('https://keen-n.github.io/laboratory-10/')"
+          >
+            <img
+              src="./images/casino-game.jpg"
+              class="card-img-top"
+              alt="Казино"
+              height="400"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Казино</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openLink(url) {
+        window.open(url, "_blank");
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
